@@ -1,0 +1,39 @@
+{
+  "name": "tasks-handler",
+  "version": "1.0.2",
+  "description": "A lightweight and efficient tool for developers to manage tasks and functions effortlessly. Streamline your workflow with ease",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint src/* --fix",
+    "compile": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tectoniumhub/Task-Management.git"
+  },
+  "keywords": [
+    "Task-Manager",
+    "Task-Management",
+    "Developers-Tools",
+    "Functions-Handler"
+  ],
+  "author": "Tectonium Hub <tectonium2008git@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tectoniumhub/Task-Management/issues"
+  },
+  "homepage": "https://github.com/tectoniumhub/Task-Management#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/node": "^22.13.1",
+    "eslint": "^9.20.0",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.23.0"
+  }
+}
